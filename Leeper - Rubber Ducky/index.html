@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+
+<html lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Nifty Assignment - Rubber Ducky | nifty-rubber-ducky</title>
+<meta name="generator" content="Jekyll v3.7.4">
+<meta property="og:title" content="Nifty Assignment - Rubber Ducky">
+<meta property="og:locale" content="en_US">
+<link rel="canonical" href="https://uhmc.github.io/nifty-rubber-ducky/">
+<meta property="og:url" content="https://uhmc.github.io/nifty-rubber-ducky/">
+<meta property="og:site_name" content="nifty-analysis">
+<script type="application/ld+json">
+{"headline":"Nifty Assignment - Rubber Ducky","@type":"WebSite","url":"https://uhmc.github.io/nifty-rubber-ducky/","name":"nifty-rubber-ducky","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <style class="anchorjs"></style><link rel="stylesheet" href="./index_files/style.css">
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+
+      <h1><a href="https://uhmc.github.io/nifty-rubber-ducky/">nifty-rubber-ducky</a></h1>
+
+
+      <h1 id="nifty-assignment---rubber-ducky">Nifty Assignment - Rubber Ducky</h1>
+
+<h2 id="background">Background<a class="anchorjs-link " href="https://uhmc.github.io/nifty-rubber-ducky/#background" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em/1 anchorjs-icons; padding-left: 0.375em;"></a></h2>
+<p>The USB Rubber Ducky is a Human Interface Device (HID) that mirrors a keyboard. With the Rubber Ducky, any actions that could be performed with a keyboard (there’s a lot) may be automated through the use of the Rubber Ducky. The USB Rubber Ducky uses “payloads” to deliver keystrokes that begin to run when the USB is plugged into a powered USB port. The USB Rubber Ducky uses are numerous, ranging from utilitarian application in the workplace to malicious use involving the trickery or theft of information.  </p>
+
+<h2 id="meta-information">Meta Information<a class="anchorjs-link " href="https://uhmc.github.io/nifty-rubber-ducky/#meta-information" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em/1 anchorjs-icons; padding-left: 0.375em;"></a></h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Attribute</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Summary</td>
+      <td>USB Rubber Ducky – Create and run simple payloads on the USB Rubber Ducky to showcase the application of injection operations.  </td>
+    </tr>
+    <tr>
+      <td>Topics</td>
+      <td>Injection attacks, Ducky Script, USB Rubber Ducky   </td>
+    </tr>
+    <tr>
+      <td>Audience</td>
+      <td>Students familiar with basic coding and an interest in technology gadgets. </td>
+    </tr>
+    <tr>
+      <td>Difficulty</td>
+      <td>This is designed to be a simple assignment with one application of the USB Rubber Ducky. Application of the Rubber Ducky ranges from malicious use by inside attackers to utilitarian use by system administrators. While possible to complete with no prior knowledge, a basic understanding of code will help the student complete the assignment. The content may be covered over the course of 1-2 days.</td>
+    </tr>
+    <tr>
+      <td>Strengths</td>
+      <td>Introduction to technology gadget that will interest and engage students. .</td>
+    </tr>
+    <tr>
+      <td>Weaknesses</td>
+      <td>May be difficult for the student to grasp command options utilizing only the keyboard and translating the input to ducky script. </td>
+    </tr>
+    <tr>
+      <td>Dependencies</td>
+      <td>USB Rubber Ducky </td>
+    </tr>
+    <tr>
+      <td>Variants</td>
+      <td>Expand focus to more advanced payloads. Additionally, students could work on obfuscation and optimization of their code.  </td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="additional-descriptions">Additional Descriptions<a class="anchorjs-link " href="https://uhmc.github.io/nifty-rubber-ducky/#additional-descriptions" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em/1 anchorjs-icons; padding-left: 0.375em;"></a></h3>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Assignment Description</td>
+      <td>This assignment is meant to be a hand-on lab example of writing ducky script, encoding the script via a Duck Encoder and injecting the script with the USB Rubber Ducky.  </td>
+    </tr>
+    <tr>
+      <td>Structure Description</td>
+      <td>The assignment is narrow in focus with directions for one application. Following the given example, students may use what they learned and create their own payloads.  </td>
+    </tr>
+    <tr>
+      <td>How It Works Description</td>
+      <td>The encoded payload, loaded on the Micro SD card and into the USB Rubber Ducky, is injected into a computer and pre-written commands that mimic a keyboard are performed.  </td>
+    </tr>
+  </tbody>
+</table>
+<h2 id="Before-you-start">Before you start</h2>
+<h3 id="supplies">Supplies Needed</h3>
+<p>A physical USB Rubber Ducky set is needed to complete this assignment. They may be purchased from Hak5 from their website at https://shop.hak5.org/collections/physical-access/products/usb-rubber-ducky-deluxe. While there are similar products on the market, other products do not utilize Ducky Script and do not fall within the purview of this assignment. </p>
+
+<h3 id="duckencoder">Duck Encoder</h3>
+Ducky Script, the basic scripting language that payloads are written, may be written in any text editor; however, the USB Rubber Ducky does not read plain text files—it expects a binary injection file. A Duck Encoder converts human readable text files into inject.bin payloads that are ready to be used on the device. There are three ways that text files may be Encoded into inject.bin payloads:
+<ul>
+  <li>•	Java Based Command Line Encoder</li>
+    <ul>
+      <li>	Download from resources of Hak5 website </li>
+    </ul>
+  <li>  Java Based Graphical Encoder  </li>
+    <ul>
+      <li>  Download from GitHub repository at https://github.com/moritzgloeckl/duckygui</li>
+  </ul>
+    <li>Online Encoder   </li>
+      <ul>
+        <li>	https://ducktoolkit.com/  </li>
+      </ul>
+</ul>
+<p>For simplicity, this assignment will utilize the <em>online encoder</em> as there is no need to download any additional program to encode the text file. </p>
+
+<h2 id="handout">Handout<a class="anchorjs-link " href="https://uhmc.github.io/nifty-rubber-ducky/#handout" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em/1 anchorjs-icons; padding-left: 0.375em;"></a></h2>
+
+<h3 id="duckyscript">Ducky Script</h3>
+<p>The language of Ducky Script is a simple language. Below are a few necessary commands to know to get started: </p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>REM</td>
+      <td>Tag for comments. Ignored by the program </td>
+    </tr>
+    <tr>
+      <td>DELAY</td>
+      <td>Set a delay in milliseconds  </td>
+    </tr>
+    <tr>
+      <td>STRING</td>
+      <td>Processes the text string</td>
+    </tr>
+    <tr>
+      <td> GUI    </td>
+      <td>   Emulates the Windows Key (Combine with other keys to perform specific actions)  </td>
+    </tr>
+    <tr>
+      <td>  SHIFT   </td>
+      <td>    Emulates the SHIFT key </td>
+    </tr>
+    <tr>
+      <td>  ALT   </td>
+      <td> Emulates the ALT key    </td>
+    </tr>
+    <tr>
+      <td>   CONTROL  </td>
+      <td>  Emulates the CTRL key   </td>
+    </tr>
+    <tr>
+      <td>   DELETE  </td>
+      <td>  Emulates the DEL key   </td>
+    </tr>
+    <tr>
+      <td>  PRINTSCREEN   </td>
+      <td>   To take screenshots, use with GUI key (Ex: GUI PRINTSCREEN)  </td>
+    </tr>
+    <tr>
+      <td>  TAB   </td>
+      <td>  Emulates the TAB key   </td>
+    </tr>
+    <tr>
+      <td>  SPACE   </td>
+      <td>   Emulates the SPACE key  </td>
+    </tr>
+  </tbody>
+</table>
+<p>A printable and visually appealing “Cheat Sheet,” created by the Github user Jonny Banana may be found at https://github.com/JonnyBanana/Huge-Collection-of-CheatSheet/blob/master/DuckyScript/RubberDuckyEssentialCheatSheet.pdf. </p>
+
+
+
+
+<h3 id="assignment-instructions">Assignment Instructions<a class="anchorjs-link " href="https://uhmc.github.io/nifty-rubber-ducky/#assignment-instructions" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em/1 anchorjs-icons; padding-left: 0.375em;"></a></h3>
+<ol>
+  <li>Open notepad (or a comparable text editor). While an Online Editor will be used to Encode the text, it is best to have the code in a secondary file for editing should an error occur within the browser so progress is not lost. </li>
+  <li>Copy and paste the provided Ducky Script into your text editor. Generous delays have been incorporated to ensure usability on older, slower machines. </li>
+  <li>Encode the text into Ducky Script.  </li>
+    <ol>
+      <li>Navigate to Duck Toolkit at https://ducktoolkit.com/.  </li>
+      <li>Click “Encode Payload.”  </li>
+      <li>Paste the Ducky Script in the Command Line Editor.   </li>
+      <li>On the right side, select your language as there may be different keyboard configurations in different languages.   </li>
+      <li>Scroll down and click “Encode Payload.”   </li>
+      <li>Read the disclaimer and click “Ok.”   </li>
+      <li>Click “Download Inject.bin.”   </li>
+      <li>Insert the microSD to USB device into the computer with the microSD inserted in the slot.  </li>
+      <li>Navigate to your downloads and locate the inject.bin file. Click and drag the file onto the microSD storage.   </li>
+      <ol>
+        <li>For future inject.bin files, ensure you remove the differentiator after deleting the original inject.bin file on the microSD. For example, inject(1).bin is not recognized and ran by the USB Rubber Ducky.</li>
+      </ol>
+      <li>Eject the microSD to USB device and transfer the microSD card to the USB Rubber Ducky keyboard simulator.   </li>
+    </ol>
+  <li>Test the inject.bin file through the USB Rubber Ducky. If the payload fails, press the black button on the device to restart. Input from the mouse or keyboard may interfere with the script so no other actions should be taken while the injection is occurring.  </li>
+    <ol>
+      <li>The led indicator light will let you know if there is an error. The light should pulse green if the device is recognized and functioning properly. If there is an issue with the inject.bin file or the microSD card the LED will shine red.  </li>
+    </ol>
+  <li>Create a new Ducky Script.   </li>
+    <ol>
+      <li>On ducktoolkits.com there is a tab for “User Scripts.” You can review the text in any of the user submitted scripts. <b><em>BEWARE: </b></em>some of the scripts may cause severe aggravation if implemented on your own device. Do not use any injections you do not understand by ‘walking’ through the code.  </li>
+    </ol>
+</ol>
+
+
+<h2 id="starter-and-support-code-file">Check on learning file<a class="anchorjs-link " href="https://uhmc.github.io/nifty-rubber-ducky/#starter-and-support-code-file" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em/1 anchorjs-icons; padding-left: 0.375em;"></a></h2>
+<p>Starter code for this assignment (simple virus scan script) is available in the GitHub repository. </p>
+
+<h2 id="model-grading-criteria">Model grading criteria<a class="anchorjs-link " href="https://uhmc.github.io/nifty-rubber-ducky/#model-grading-criteria" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em/1 anchorjs-icons; padding-left: 0.375em;"></a></h2>
+<p>Upon successful completion of this assignment, the student should have successfully navigated the USB Rubber Ducky and related tools, using the Online Editor to encode text files to create inject.bin files. The student should have created a new Ducky Script that, whether successful or not, demonstrates a level of reasonable effort.  </p>
+
+    </div>
+    <script src="./index_files/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+
+
+
+</body></html>

@@ -1,0 +1,36 @@
+REM------This simple text file, meant for the USB Rubber Ducky by Hak5, will 
+REM------perform the necessary actions to open Windows Defender and perform a simple 
+REM------virus scan. Nothing too special or crazy but more advanced than 'Hello World.' 
+
+REM------START
+
+REM------Delay to allow USB to be recognized
+DELAY 1500
+
+REM------Minimizes all open windows as an additional safety feature if
+REM------the script should fail to execute appropriately. 
+GUI d
+
+REM------Open menu
+CONTROL ESCAPE
+
+REM------Give a chance for the menu to open 
+DELAY 500
+
+REM------Open virus and threat protection
+STRING virus & threat protection
+DELAY 50
+ENTER
+
+REM------Give a chance for Windows Defender to open 
+DELAY 1000
+
+REM------Run quick virus scan 
+TAB
+DELAY 50 
+ENTER 
+
+REM------Minimize Windows Defender Virus Scan to run in the background 
+GUI d	
+
+REM------END 
