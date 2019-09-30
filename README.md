@@ -32,19 +32,19 @@ A physical USB Rubber Ducky set is needed to complete this assignment. They may 
 
 ### Duck Encoder
 Ducky Script, the basic scripting language that payloads are written, may be written in any text editor; however, the USB Rubber Ducky does not read plain text files—it expects a binary injection file. A Duck Encoder converts human readable text files into inject.bin payloads that are ready to be used on the device. There are three ways that text files may be Encoded into inject.bin payloads:
-•	Java Based Command Line Encoder
-    o	Download from resources of Hak5 website
-•	Java Based Graphical Encoder
-    o	Download from GitHub repository at https://github.com/moritzgloeckl/duckygui
-•	Online Encoder
-    o	https://ducktoolkit.com/
+*	Java Based Command Line Encoder
+    *	Download from resources of Hak5 website
+* Java Based Graphical Encoder
+    *	Download from GitHub repository at https://github.com/moritzgloeckl/duckygui
+* Online Encoder
+    *	https://ducktoolkit.com/
 For simplicity, this assignment will utilize the online encoder as there is no need to download any additional program to encode the text file.
 
 ## Handout
 ### Ducky Script
 The language of Ducky Script is a simple language. Below are a few necessary commands to know to get started:
 | Command | Comments |
-| -------------- | --------------|
+| --------- |-------------|
 |REM	|Tag for comments|
 |DELAY	|Set a delay in milliseconds|
 |STRING	|Processes the text string|
