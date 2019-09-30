@@ -42,7 +42,9 @@ For simplicity, this assignment will utilize the online encoder as there is no n
 
 ## Handout
 ### Ducky Script
+
 The language of Ducky Script is a simple language. Below are a few necessary commands to know to get started:
+
 | Command | Comments |
 | --------- |-------------|
 |REM	|Tag for comments|
