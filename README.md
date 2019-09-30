@@ -40,7 +40,7 @@ Ducky Script, the basic scripting language that payloads are written, may be wri
     *	https://ducktoolkit.com/
 For simplicity, this assignment will utilize the online encoder as there is no need to download any additional program to encode the text file.
 
-## Handout
+## Handouts
 ### Ducky Script
 
 The language of Ducky Script is a simple language. Below are a few necessary commands to know to get started:
@@ -59,22 +59,22 @@ The language of Ducky Script is a simple language. Below are a few necessary com
 |TAB|	Emulates the TAB key|
 |SPACE	|Emulates the SPACE key|
 
-A printable and visually appealing “Cheat Sheet,” created by the Github user Jonny Banana may be found at https://github.com/JonnyBanana/Huge-Collection-of-CheatSheet/blob/master/DuckyScript/RubberDuckyEssentialCheatSheet.pdf.
+A printable and visually appealing “Cheat Sheet,” created by the GitHub user Jonny Banana may be found at https://github.com/JonnyBanana/Huge-Collection-of-CheatSheet/blob/master/DuckyScript/RubberDuckyEssentialCheatSheet.pdf.
 
 ### Assignment Instructions
 1.	Open notepad (or a comparable text editor). While an Online Editor will be used to Encode the text, it is best to have the code in a secondary file for editing should an error occur within the browser so progress is not lost.
 2.	Copy and paste the provided Ducky Script into your text editor. Generous delays have been incorporated to ensure usability on older, slower machines.
 3.	Encode the text into Ducky Script.
-  1.	Navigate to Duck Toolkit at https://ducktoolkit.com/.
-  2.	Click “Encode Payload.”
-  3.	Paste the Ducky Script in the Command Line Editor.
-  4.	On the right side, select your language as there may be different keyboard configurations in different languages.
-  5.	Scroll down and click “Encode Payload.”
-  6.	Read the disclaimer and click “Ok.”
-  7.	Click “Download Inject.bin.”
-  8.	Insert the microSD to USB device into the computer with the microSD inserted in the slot.
-  9.	Navigate to your downloads and locate the inject.bin file. Click and drag the file onto the microSD storage.
-      1. For future inject.bin files, ensure you remove the differentiator after deleting the original inject.bin file on the microSD. For example, inject(1).bin is not recognized and ran by the USB Rubber Ducky.
+    1.	Navigate to Duck Toolkit at https://ducktoolkit.com/.
+    2.	Click “Encode Payload.”
+    3.	Paste the Ducky Script in the Command Line Editor.
+    4.	On the right side, select your language as there may be different keyboard configurations in different languages.
+    5.	Scroll down and click “Encode Payload.”
+    6.	Read the disclaimer and click “Ok.”
+    7.	Click “Download Inject.bin.”
+    8.	Insert the microSD to USB device into the computer with the microSD inserted in the slot.
+    9.	Navigate to your downloads and locate the inject.bin file. Click and drag the file onto the microSD storage.
+        1. For future inject.bin files, ensure you remove the differentiator after deleting the original inject.bin file on the microSD. For example, inject(1).bin is not recognized and ran by the USB Rubber Ducky.
   10. Eject the microSD to USB device and transfer the microSD card to the USB Rubber Ducky keyboard simulator.
 4. 	Test the inject.bin file through the USB Rubber Ducky. If the payload fails, press the black button on the device to restart. Input from the mouse or keyboard may interfere with the script so no other actions should be taken while the injection is occurring.
   1. The led indicator light will let you know if there is an error. The light should pulse green if the device is recognized and functioning properly. If there is an issue with the inject.bin file or the microSD card the LED will shine red.  
